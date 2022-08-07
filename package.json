@@ -1,0 +1,23 @@
+{
+  "name": "03tut",
+  "version": "1.0.0",
+  "description": "Testing Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test-node"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
